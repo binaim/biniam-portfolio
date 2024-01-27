@@ -24,7 +24,10 @@ function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-             
+              Highly motivated and talented professional with 6+ years of experience contributing to the development of large-scale applications
+               in alignment with diverse needs of users and organizations. Dedicated to delivering projects on time, within budget, 
+               and in alignment with top quality standards applying, deep knowledge of industry best practices including design patterns and 
+               software development lifecycle.
               </p>
 
               <div className="heading-type">
