@@ -7,8 +7,8 @@ function TypeWriter() {
       options={{
         strings: [
           "Software Engineer",
-          "Front End Developer",
           "Back End Developer",
+          "Front End Developer",          
           "Electrical Engineer",
           "Industrial Automation Designer",
         ],
