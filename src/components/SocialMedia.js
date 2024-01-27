@@ -6,6 +6,28 @@ import {
 import { MdEmail } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
 
+function sendEmail() {
+  // Make a request to your AWS API Gateway endpoint
+  fetch('https://keiz0ctap5.execute-api.us-east-2.amazonaws.com/prod/email-notification', {
+    method: 'POST',
+    body: JSON.stringify({}),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
+  .then(response => {
+    if (response.ok) {
+      console.log('Email sent successfully');
+    } else {
+      console.error('Failed to send email');
+    }
+  })
+  .catch(error => {
+    console.error('Error sending email:', error);
+  });
+}
+
+
 function SocialMedia() {
   return (
     <ul className="home-about-social-links">
@@ -41,7 +63,7 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="mailto:biniamgg11@gmail.com"
+          href="mailto:biniamgg11@gmail.com" onClick={sendEmail}
           target="_blank"
           rel="noreferrer"
           className="icon-colour home-social-icons"
