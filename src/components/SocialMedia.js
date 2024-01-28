@@ -8,7 +8,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function sendEmail() {
   // Make a request to your AWS API Gateway endpoint
-  fetch('https://keiz0ctap5.execute-api.us-east-2.amazonaws.com/prod/email-notification', {
+  fetch('https://y9hotjb2ie.execute-api.us-east-2.amazonaws.com/prod/notifications', {
     method: 'POST',
     body: JSON.stringify({}),
     headers: {
@@ -63,7 +63,7 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="mailto:biniamgg11@gmail.com" onClick={sendEmail}
+          href="mailto:luwyzb@gmail.com" onClick={sendEmail}
           target="_blank"
           rel="noreferrer"
           className="icon-colour home-social-icons"
