@@ -37,7 +37,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="https://www.linkedin.com/in/biniam-ghebremedhin-244311235/" target="_blank">
-          <MdDeveloperMode style={{ marginBottom: "2px" }} /> Logicstime.com
+          <MdDeveloperMode style={{ marginBottom: "2px" }} /> massawa-engineering.com
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -92,7 +92,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://medium.com/aws-serverless-microservices-with-patterns-best/using-aws-lambda-as-a-microservice-dd7d7296c74a"
+                href="https://medium.com/@luwyzb/"
                 target="_blank"
                 rel="noreferrer"
               >
