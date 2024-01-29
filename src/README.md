@@ -25,14 +25,14 @@ If you are interested on looking to another microservices based ordering system 
 https://github.com/binaim/SCADA-AUTOMATION-SERVICES
 
 
-# AWS Lambda has been used as microservices.
+~ AWS Lambda has been used as microservices.
 
-# APIgateway to handle the request from client
+~ APIgateway to handle the request from client
 
-# and there is a notification services integrated
+~ and there is a notification services integrated
 
-# how to create stacks from templates using cloudformation
+~ how to create stacks from templates using cloudformation
 
-# easy access through aws CLI
+~ easy access through aws CLI
 
-# full details can be found there
+~ full details can be found there
